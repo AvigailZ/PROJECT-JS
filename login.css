@@ -1,0 +1,104 @@
+#name{
+    position: absolute;
+    top: 30%;
+    left:40%;
+    font-size:200%;
+    height:10%;
+    width: 20%;
+}
+#password{
+    position: absolute;
+    top: 44%;
+    left:40%;
+    font-size: 200%;
+    height:10%;
+    width: 20%;
+}
+#login{
+    position: absolute;
+    top: 58%;
+    left:48%;
+    font-size:150%;
+    
+}
+#Board{
+    display: inline; 
+     justify-content: space-around; 
+    background-color: rgb(81, 126, 129) ;
+    border-color: dimgray; 
+    border-style: groove; 
+    border-width: 10px; 
+    top: 90px;
+    left: 600px;
+    z-index: 3;
+}
+#body1{
+    background-image:url("pic.png");
+}
+body{
+    background-color:antiquewhite;
+}
+.dir{
+    background-color:rgb(81, 126, 129) ;
+    font-size: medium;
+    font-style: unset;
+    border-style: groove;
+    border-color:dimgray;
+    position: absolute; 
+    height: 5%;
+    width: 5%;
+    color:antiquewhite ;
+    font-weight: bolder;
+    
+}
+.dir:hover{
+    border-color: black;
+    border-width: 15%;
+    border-style: inset;
+    position: absolute;
+    background-color:rgb(14, 65, 69) ;
+}
+
+#up{
+    top: 75%;
+    left: 15%;
+}
+#down{
+    top: 81%;
+    left: 15%;
+}
+#left{
+    top: 78%;
+    left: 9%;
+}
+#right{
+    top: 78%;
+    left: 21%;
+}
+
+/* .car:hover{
+    border-color: black;
+    border-width: 5%;
+    border-style: inset;
+    position: absolute;
+} */
+.car:selected{
+    border-color:#007d8b; 
+    border-style:dotted; 
+      
+}
+#out{
+    background-color:antiquewhite ;
+    width: 125px;
+    height:125px ;
+    left: 1360px;
+    position: absolute;
+    top: 350px;
+    z-index: 4;
+}
+#myselect{
+    border-color:#007d8b; 
+    border-style:dotted;
+}
+
+

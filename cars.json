@@ -1,0 +1,87 @@
+{
+        "carArray": [
+            {
+                "id": 1,
+                "boardTop": 2,
+                "boardLeft": 1,
+                "direction": "horizontal",
+                "sumSquares": 2,
+                "color": "red"
+            },
+            {
+                "id": 2,
+                "boardTop": 0,
+                "boardLeft": 0,
+                "direction": "horizontal",
+                "sumSquares": 2,
+                "color": "orange"
+            },
+            {
+                "id": 3,
+                "boardTop": 4,
+                "boardLeft": 0,
+                "direction": "vertical",
+                "sumSquares": 2,
+                "color": "purple "
+            },
+            {
+                "id": 4,
+                "boardTop": 1,
+                "boardLeft": 0,
+                "direction": "vertical",
+                "sumSquares": 3,
+                "color": "black"
+            },
+            {
+                "id": 5,
+                "boardTop": 3,
+                "boardLeft": 1,
+                "direction": "horizontal",
+                "sumSquares": 3,
+                "color": "lightgreen"
+            },
+            {
+                "id": 6,
+                "boardTop": 0,
+                "boardLeft": 5,
+                "direction": "vertical",
+                "sumSquares": 2,
+                "color": "lightblue"
+            },
+            {
+                "id": 7,
+                "boardTop": 2,
+                "boardLeft": 5,
+                "direction": "vertical",
+                "sumSquares": 2,
+                "color": "pink"
+            },
+            {
+                "id": 8,
+                "boardTop": 4,
+                "boardLeft": 4,
+                "direction": "horizontal",
+                "sumSquares": 2,
+                "color": "yellow"
+            },
+            {
+                "id": 9,
+                "boardTop": 1,
+                "boardLeft": 4,
+                "direction": "vertical",
+                "sumSquares": 3,
+                "color": "blue"
+            },
+            {
+                "id": 10,
+                "boardTop": 5,
+                "boardLeft": 4,
+                "direction": "horizontal",
+                "sumSquares": 2,
+                "color": "white"
+            }
+        ],
+        "squaresize":125,
+        "squarecount": 36,
+        "exitpoint": 2
+}

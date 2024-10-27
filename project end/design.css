@@ -1,0 +1,137 @@
+#name{
+    position: absolute;
+    top: 30%;
+    left:40%;
+    font-size:200%;
+    height:10%;
+    width: 20%;
+}
+#password{
+    position: absolute;
+    top: 44%;
+    left:40%;
+    font-size: 200%;
+    height:10%;
+    width: 20%;
+}
+#login{
+    position: absolute;
+    top: 58%;
+    left:48%;
+    font-size:150%;
+    
+}
+#Board{
+    display: inline; 
+     justify-content: space-around; 
+    background-color: rgb(81, 126, 129) ;
+    border-color: dimgray; 
+    border-style: groove; 
+    border-width: 10px; 
+    top: 30px;
+    left: 550px;
+    z-index: 3;
+}
+#body1{
+    background-image:url("pic.png");
+}
+#body2{
+    background-image:url("out.gif");
+}
+
+body{
+    background-color:antiquewhite;
+}
+.dir{
+    background-color:rgb(81, 126, 129) ;
+    font-size: medium;
+    font-style: unset;
+    border-style: groove;
+    border-color:dimgray;
+    position: absolute; 
+    height: 7%;
+    width: 5%;
+    color:antiquewhite ;
+    font-weight: bolder;
+    
+}
+.dir:hover{
+    border-color: black;
+    border-width: 15%;
+    border-style: inset;
+    position: absolute;
+    background-color:rgb(14, 65, 69) ;
+}
+
+#up{
+    top: 75%;
+    left: 15%;
+}
+#down{
+    top: 83%;
+    left: 15%;
+}
+#left{
+    top: 78%;
+    left: 9%;
+}
+#right{
+    top: 78%;
+    left: 21%;
+}
+
+#SaveGo{
+    top: 87%;
+}
+#State{
+    top: 79%;
+}
+#Zeroing{
+    top: 71%;
+}
+#newGame{
+    top: 300px;
+    left: 650px;
+    position: absolute;
+    background-color:rgb(81, 126, 129) ;
+    font-size:xx-large;
+    font-style: unset;
+    border-style: groove;
+    border-color:dimgray;
+    position: absolute; 
+    height: 12%;
+    width: 10%;
+    color:antiquewhite ;
+    font-weight: bolder;
+}
+
+#out{
+    background-color:antiquewhite ;
+    width: 10px;
+    height:100px ;
+    left: 1136px;
+    position:absolute;
+    top: 232px;
+    z-index: 4;
+}
+[selected]{
+    border-color:#007d8b; 
+    border-style:dotted;
+    position: absolute;
+}
+
+#status{
+    direction: ltr;
+    background-color:antiquewhite;
+    height: max-content;
+    width: 62px;
+    font-family: Shuneet Medium;
+    font-size:small;
+    color:#007d8b;
+    position: absolute;
+    left: 450px;
+    top: 60px;
+    
+}
+
+
